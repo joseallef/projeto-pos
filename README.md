@@ -1,2 +1,2 @@
 # projeto-post
- primeira ideia do projeto de postagns
+ primeira ideia do projeto de postagem

@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background: blue;
+    z-index: 2000;
+}
+
+.conteudo {
+    position: relative;
+    top: 110px;
+    margin-left: 10%;
+    border: 1pt rgb(163, 217, 238) dotted;
+    min-height: 70%;
+    width: 80%;
+
+}
+
+.titulo {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.posts {
+    position: relative;
+    padding: 50px;
+    border:  1px solid black;
+
+}
+
+.comentarios {
+    position: relative;
+    border:  1px solid black;
+    left: 15%;
+    display: flex;
+}
+textarea {
+    position: relative;
+    margin-left: 15%;
+    left: -50;
+    display: block;
+}
+button, .button {
+    position: absolute;
+    bottom: 0px;
+    background: rgb(48, 81, 189);
+    padding: 10px;
+    right: 0px;
+    margin: 0px;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+
+}
+
+p {
+    position: relative;
+    padding: 20px;
+    padding: 40;
+}
